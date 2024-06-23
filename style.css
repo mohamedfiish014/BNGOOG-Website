@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+margin: 0;
+padding: 0;
+font-family: Montserrat;
+}
+.navbar{
+    height: 80px;
+    background-color: rgb(36, 0, 70);
+    border-bottom: 6px rgb(181, 102, 255) solid;
+    border-top: 6px rgb(181, 102, 255) solid;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    
+    
+}
+.navbar h1{
+    color: white;
+   padding-top: 20px;
+   padding-left: 40px;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    color: white;
+    gap: 50px;
+    font-size: 20px;   
+}
+button{
+    margin-right: 50px;
+    width: 110px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+}
+.part2{
+    background-color: bisque;
+    height: 1000px;
+}
+.left{
+    margin-left: 80px;
+  position: relative;
+}
+.left .btn{
+background-color: black;
+color: white;
+font-size: 15px;
+width: 150px;
+text-align: center;
+margin-top: 70px;
+}
+.left .btn span{
+    color: yellow;
+}
+.left p{
+padding-top: 60px;
+}
+.left h1{
+    padding-top: 30px;
+    font-size: 40px;
+}
+.box{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 12px;
+    position: absolute;
+    right: 120px;
+    top: 100px;
+}
+.box h1{
+    font-size: 28px;
+    padding-left: 30px;
+}
+.box p{
+padding-left: 30px;
+}
+.box h2{
+padding-left: 30px;
+}
+form .inputtxt{
+    margin-top: 20;
+    margin-left: 30px;
+    font-size: 18px;
+}
+.txt3{
+padding-left: 80px;
+position: relative;
+}
+.txt3 .see{
+position: absolute;
+right: 100;
+}
+.photos img{
+    width: 200px;
+}
+.photos{
+    display: flex;
+    margin-top: 80px;
+    gap: 30px;
+    margin-left: 100px;
+}
+.photos5 img{
+    width: 200px;
+    height: 250px;
+    border-radius: 6px;
+}
+.photos4 img{
+    width: 200px;
+    height: 250px;
+    border-radius: 6px;
+}
+.photos3 img{
+    width: 200px;
+    height: 250px;
+    border-radius: 6px;
+}
+.photos2 img{
+    width: 200px;
+    height: 250px;
+    border-radius: 6px;
+}
+.photos1 img{
+    width: 200px;
+    height: 250px;
+    border-radius: 6px;
+}
+
+.navbar i{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 600px){
+    
+.navbar ul{
+display: none;
+}
+.navbar button{
+    display: none;
+}
+
+.navbar i{
+    font-size: 45px;
+    color: white;
+    padding-right: 40px;
+    display: block;
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    margin-left: 50px;
+}
+
+.box{
+    top: 450px;
+}
+
+}
